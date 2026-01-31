@@ -1,0 +1,27 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>io.datarouter</groupId>
+	<artifactId>secret-manager-connection-leak</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<awsSdkVersion>2.26.22</awsSdkVersion>
+		<exec.mainClass>SecretManagerConnectionLeak</exec.mainClass>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>secretsmanager</artifactId>
+			<version>${awsSdkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>sso</artifactId>
+			<version>${awsSdkVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>software.amazon.awssdk</groupId>
+			<artifactId>ssooidc</artifactId>
+			<version>${awsSdkVersion}</version>
+		</dependency>
+	</dependencies>
+</project>
