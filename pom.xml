@@ -4,7 +4,9 @@
 	<artifactId>secret-manager-connection-leak</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<awsSdkVersion>2.26.22</awsSdkVersion>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+		<awsSdkVersion>2.26.23</awsSdkVersion>
 		<exec.mainClass>SecretManagerConnectionLeak</exec.mainClass>
 	</properties>
 	<dependencies>
